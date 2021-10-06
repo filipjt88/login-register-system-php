@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+    /* font-size: 20px; */
+}
+
+body {
+    background-color: rgb(241, 237, 237);
+}
+
+.header {
+    background: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)!important;
+}
+.register {
+    margin-top: 150px;
+}
+
+.login {
+    margin-top: 150px;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ 
+ .btn-grad1 {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+ .btn-grad1 {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad1:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .img-home {
+    background: url("../images/img.jpg");
+    opacity: .8;
+    background-position: bottom;
+    background-size: cover;
+    height: 97vh;
+    padding: 150px 0;
+  }
+
+  .img-home h1 {
+    color: #fff;
+  }
+ 
